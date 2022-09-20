@@ -20,12 +20,12 @@ int _strlen(char *s)
 }
 
 /**
- * put2 - print every second character of a string
+ * puts2 - print every second character of a string
  *@str: string to print
  * Return: void
  */
 
-void put2(char *str)
+void puts2(char *str)
 {
 	int i;
 
