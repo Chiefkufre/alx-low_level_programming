@@ -10,7 +10,18 @@
 
 void print_rev(char *s)
 {
-	int *i;
+	int len = 0;
+	int i;
+
+	/*Find the length of the string*/
+	while (*s != '\0')
+	{
+		len++;
+		++s;
+	}
+
+	/* Return to the last character before null */
+	s--;
 
 	for (i = strlen(*s); i > 0; i--)
 	{
