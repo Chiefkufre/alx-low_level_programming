@@ -2,8 +2,8 @@
 
 /**
  * reset_to_98 - return n
- * Return:n
- *
+ * Return: always 0
+ *@n: pointer int
  */
 void reset_to_98(int *n)
 {
