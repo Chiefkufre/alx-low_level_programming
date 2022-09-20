@@ -23,7 +23,7 @@ void print_rev(char *s)
 	/* Return to the last character before null */
 	s--;
 
-	for (i = strlen(*s); i > 0; i--)
+	for (i = len; i > 0; i--)
 	{
 		putchar(*s);
 		s--;
