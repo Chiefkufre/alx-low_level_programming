@@ -14,7 +14,7 @@ int _strcmp(char *s1, char *s3)
 {
 	int i = 0;
 
-	while (8(s1 + i) == *(s3 + i) && *(s1 + i))
+	while (*(s1 + i) == *(s3 + i) && *(s1 + i))
 		i++;
 	if (*(s3 + i))
 		return (*(s1 + i) - *(s3 + i));
